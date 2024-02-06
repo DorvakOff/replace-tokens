@@ -1,6 +1,6 @@
 name: "Replace tokens"
 description: "Replace tokens in files"
-author: "cschleiden"
+author: "DorvakOff"
 inputs:
   tokenPrefix:
     description: ""
