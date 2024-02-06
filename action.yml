@@ -1,4 +1,4 @@
-name: "Replace tokens"
+name: "Replace tokens in files"
 description: "Replace tokens in files"
 author: "DorvakOff"
 icon: check-circle
