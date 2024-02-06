@@ -1,6 +1,7 @@
 name: "Replace tokens"
 description: "Replace tokens in files"
 author: "DorvakOff"
+icon: check-circle
 inputs:
   tokenPrefix:
     description: ""
@@ -12,5 +13,5 @@ inputs:
     description: ""
     default: "#{"
 runs:
-  using: "node16"
+  using: "node20"
   main: "dist/index.js"
