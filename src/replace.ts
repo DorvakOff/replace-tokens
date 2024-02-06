@@ -21,12 +21,12 @@ export async function replaceTokens(
       const m = match.match(matchRegEx);
       if (m) {
         const tokenName = m[1];
-        if (tokenName) {
+        if (tokenName && process.env[tokenName]) {
           return process.env[tokenName] || "";
         }
       }
 
-      return tokenPrefix + tokenName + tokenSuffix;
+      return match;
     }
   });
 

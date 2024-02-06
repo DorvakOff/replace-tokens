@@ -29,7 +29,7 @@ describe("basic functionality", () => {
         expect(content).toBe("hello world")
 
         const content2 = await fs.readFile('test2.txt', 'utf8');
-        expect(content2).toBe(" world")
+        expect(content2).toBe("#{GREETING}# world")
     });
 
     test("replaces multiple token in file", async () => {
